@@ -5,15 +5,19 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{7939161F-FA98-4DDA-802A-736794AD3291}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement", "UserManagement\UserManagement.csproj", "{F06E6557-36C4-4172-BDCF-2BF04F51DBF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManagement", "UserManagement\UserManagement.csproj", "{F06E6557-36C4-4172-BDCF-2BF04F51DBF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement", "EmployeeManagement\EmployeeManagement.csproj", "{348AE085-ACC5-4005-8542-9087AD66D303}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManagement", "EmployeeManagement\EmployeeManagement.csproj", "{348AE085-ACC5-4005-8542-9087AD66D303}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardManagement", "CardManagement\CardManagement.csproj", "{2D4BB8E4-CA7C-40F0-B117-BB2B782E053C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardManagement", "CardManagement\CardManagement.csproj", "{2D4BB8E4-CA7C-40F0-B117-BB2B782E053C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessManagement", "AccessManagement\AccessManagement.csproj", "{3A84F5BA-B622-4C62-BEB4-DE5B75B412EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessManagement", "AccessManagement\AccessManagement.csproj", "{3A84F5BA-B622-4C62-BEB4-DE5B75B412EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorManagement", "VisitorManagement\VisitorManagement.csproj", "{2E56BF87-DE67-4645-B07B-B281D2DFF110}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorManagement", "VisitorManagement\VisitorManagement.csproj", "{2E56BF87-DE67-4645-B07B-B281D2DFF110}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{7460A3F6-4316-4886-A6AB-C84E8B3288C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{F0FBF4E2-6868-4A75-885F-14C147FB8798}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,10 @@ Global
 		{2E56BF87-DE67-4645-B07B-B281D2DFF110}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E56BF87-DE67-4645-B07B-B281D2DFF110}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E56BF87-DE67-4645-B07B-B281D2DFF110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0FBF4E2-6868-4A75-885F-14C147FB8798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0FBF4E2-6868-4A75-885F-14C147FB8798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0FBF4E2-6868-4A75-885F-14C147FB8798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0FBF4E2-6868-4A75-885F-14C147FB8798}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +59,7 @@ Global
 		{2D4BB8E4-CA7C-40F0-B117-BB2B782E053C} = {7939161F-FA98-4DDA-802A-736794AD3291}
 		{3A84F5BA-B622-4C62-BEB4-DE5B75B412EC} = {7939161F-FA98-4DDA-802A-736794AD3291}
 		{2E56BF87-DE67-4645-B07B-B281D2DFF110} = {7939161F-FA98-4DDA-802A-736794AD3291}
+		{F0FBF4E2-6868-4A75-885F-14C147FB8798} = {7460A3F6-4316-4886-A6AB-C84E8B3288C8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B713D148-BBAD-4908-85DF-9F014F899F6F}
