@@ -10,36 +10,36 @@ namespace UserManagement.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly IUserManager userManager;
-        public UserController(IUserManager _userManager)
-        {
-            this.userManager = _userManager;
-        }
-        [HttpGet]
-        public IEnumerable<User> UserList()
-        {
-            var userList = userManager.GetUser();
-            return userList;
-        }
-        [HttpGet("{id}")]
-        public User GetUserById(int id)
-        {
-            return userManager.GetUserById(id);
-        }
-        [HttpPost]
-        public User AddUser(User user )
-        {
-            return userManager.AddUser(user);
-        }
-        [HttpPut]
-        public User UpdateUser(User user)
-        {
-            return userManager.UpdateUser(user);
-        }
-        [HttpDelete("{id}")]
-        public bool DeleteUser(int id)
-        {
-            return userManager.DeleteUser(id);
-        }
+        //private readonly IUserManager userManager;
+        //public UserController(IUserManager _userManager)
+        //{
+        //    this.userManager = _userManager;
+        //}
+        //[HttpGet]
+        //public IEnumerable<User> UserList()
+        //{
+        //    var userList = userManager.GetUser();
+        //    return userList;
+        //}
+        //[HttpGet("{id}")]
+        //public User GetUserById(int id)
+        //{
+        //    return userManager.GetUserById(id);
+        //}
+        //[HttpPost]
+        //public User AddUser(User user )
+        //{
+        //    return userManager.AddUser(user);
+        //}
+        //[HttpPut]
+        //public User UpdateUser(User user)
+        //{
+        //    return userManager.UpdateUser(user);
+        //}
+        //[HttpDelete("{id}")]
+        //public bool DeleteUser(int id)
+        //{
+        //    return userManager.DeleteUser(id);
+        //}
     }
 }
